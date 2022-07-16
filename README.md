@@ -22,10 +22,7 @@ Os arquivos gerados pelo código python seguem a estrutura *df_"terminacao".parq
 
 ```mermaid
 graph LR
-A[Carregara sobre regras }
-D --> E((Divide dados dos arquivos))
-E --> F((Salva em parquet))Regras]  --> B((Carregar arquivos))
+A[Carregar Regras]  --> B((Carregar arquivos))
 B --> D{Itera sobre regras }
 D --> E((Divide dados dos arquivos))
 E --> F((Salva em parquet))
-```
